@@ -223,6 +223,8 @@ body {
      }
      .team-list> .item{
       width: 270px;
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+      border-radius: 0px 0px 4px 4px;
      }
 
      .team .item:not(:last-child){
@@ -327,8 +329,12 @@ body {
          color: var(--secondary-text-color);
          font-size: 18px;
          line-height: 2;
-         letter-spacing: 0.06em;}
+         letter-spacing: 0.06em;
+      }
        
+         /* .frame{
+            outline: 1px solid #e5e5e5;
+         } */
 
 
 
